@@ -1,0 +1,192 @@
+.main-footer {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 69px 140px;
+  display:flex;
+}
+.social-wrapper-text {
+  order: 2;
+}
+.social {
+  max-width: 370px;
+  order: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0 128px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.social__item {
+  font-size: 0;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.social__link {
+  width: 79px;
+  height: 79px;
+  background-color: #e1e1e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.social__link:hover {
+  background-color: #e74246;
+}
+.social__link:active {
+  background-color: #d7373b;
+  svg {
+    opacity: 0.3;
+  }
+}
+.footer-title {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.modal-write {
+  display: none;
+  width: 960px;
+  min-height: 590px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -285px;
+  margin-left: -480px;
+  z-index: 6;
+  box-shadow: 0 20px 40px rgba(#000101, 0.75);
+  background-color: #ffffff;
+  padding: 73px 100px;
+  box-sizing: border-box;
+}
+.write-title {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 45px;
+}
+.write-form span {
+  display: block;
+  margin-bottom: 10px;
+}
+.input-wrapper {
+  margin: 0;
+  margin-bottom: 34px;
+}
+.input-wrapper {
+  margin-right: 40px;
+}
+.input-wrapper:nth-child(2) {
+  margin-right: 0;
+}
+.textarea-wrapper {
+  margin: 0;
+  margin-bottom: 47px;
+  width: 100%;
+}
+.write-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.input-wrapper input {
+  box-sizing: border-box;
+  padding: 15px;
+  width: 360px;
+  outline: none;
+  border: 2px solid #d7dcde;
+  border-radius: 4px;
+  color: #000000;
+}
+.input-wrapper input:hover {
+  border-color: #b4b9bb;
+}
+.input-wrapper input:focus {
+  border-color: #000000;
+}
+
+.input-wrapper input::-webkit-input-placeholder {color: rgba(#444444, 0.5);}
+.input-wrapper input::-moz-placeholder          {color: rgba(#444444, 0.5);}/* Firefox 19+ */
+.input-wrapper input:-moz-placeholder           {color: rgba(#444444, 0.5);}/* Firefox 18- */
+.input-wrapper input:-ms-input-placeholder      {color: rgba(#444444, 0.5);}
+
+.input-wrapper input:focus::-webkit-input-placeholder {color: #444444;}
+.input-wrapper input:focus::-moz-placeholder          {color: #444444;}/* Firefox 19+ */
+.input-wrapper input:focus:-moz-placeholder           {color: #444444;}/* Firefox 18- */
+.input-wrapper input:focus:-ms-input-placeholder      {color: #444444;}
+
+.input-wrapper span {
+  font-weight: 700;
+  line-height: 18px;
+}
+.text-letter {
+  width: inherit;
+  height: 118px;
+  resize: none;
+  border: 2px solid #d7dcde;
+  border-radius: 4px;
+  outline: none;
+  padding: 15px;
+}
+.text-letter:hover {
+  border-color: #b4b9bb;
+}
+.text-letter:focus {
+  border-color: #000000;
+}
+.textarea-wrapper span{
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.text-letter::-webkit-input-placeholder {color: rgba(#444444, 0.5);}
+.text-letter::-moz-placeholder          {color: rgba(#444444, 0.5);}/* Firefox 19+ */
+.text-letter:-moz-placeholder           {color: rgba(#444444, 0.5);}/* Firefox 18- */
+.text-letter:-ms-input-placeholder      {color: rgba(#444444, 0.5);}
+
+.text-letter:focus::-webkit-input-placeholder {color: #444444;}
+.text-letter:focus::-moz-placeholder          {color: #444444;}/* Firefox 19+ */
+.text-letter:focus:-moz-placeholder           {color: #444444;}/* Firefox 18- */
+.text-letter:focus:-ms-input-placeholder      {color: #444444;}
+
+.btn-send {
+  border: 0;
+  padding: 0;
+  width: 260px;
+  height: 50px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 18px;
+  font-size: 16px;
+  background-color: #fb565a;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.btn-send:hover {
+  background-color: #e74246;
+}
+.btn-send:active {
+  background-color: #d7373b;
+  color: rgba(#ffffff, 0.3);
+}
+.modal-close {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 78px;
+  right: 90px;
+  cursor: pointer;
+  opacity: 0.3;
+}
+.modal-close:hover {
+  opacity: 1;
+}
+.modal-close:active {
+  opacity: 0.1;
+}
